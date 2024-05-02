@@ -86,6 +86,22 @@ downBtn.addEventListener("mousedown", ()=>{
 downBtn.addEventListener("mouseup", ()=>{
     playerMoveDownStatus = false;
 });
+upBtn.addEventListener("touchstart", ()=>{
+
+    playerMoveUpStatus = true;
+});
+    
+upBtn.addEventListener("touchend", ()=>{
+    playerMoveUpStatus = false;
+});
+    
+downBtn.addEventListener("touchstart", ()=>{
+    playerMoveDownStatus = true;
+});
+    
+downBtn.addEventListener("touchend", ()=>{
+    playerMoveDownStatus = false;
+});
 
 
     
