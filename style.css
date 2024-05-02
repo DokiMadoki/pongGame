@@ -55,7 +55,7 @@ body{
     width: 5vw;
     font-size: 3rem;
     border: none;
-    background: hsl(255, 10%, 15%);;
+    background: hsl(255, 10%, 25%);;
 
 }
 @media (max-width: 768px) {
